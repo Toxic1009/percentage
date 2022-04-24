@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{   int s1,s2,s3,s4,s5,s6;
+float per;
+scanf("%d%d%d%d%d%d",&s1,&s2,&s3,&s4,&s5,&s6);
+per=(float)(s1+s2+s3+s4+s5+s6)*100/600;
+printf("%.2f",per);
+if (per>=90)
+{
+    printf(" Percent\nGrade A");
+} 
+    else if (per>=80) 
+{
+    printf (" Percent\nGrade B");
+} 
+    else if (per>=70) 
+{
+    printf (" Percent\nGrade C");
+} 
+    else if (per>=60)
+{
+    printf (" Percent\nGrade D");
+}  
+     else if (per>=50) 
+{
+    printf(" Percent\nGrade E");
+}
+   else  if (per>=40)
+{
+    printf ("percent\nGrade F");
+ } 
+  
+   else
+ {
+     printf("failed");
+ }
+   
+	return 0;
+}
